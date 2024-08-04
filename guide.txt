@@ -1,0 +1,5 @@
+npm init -y  (for initialize)
+npm install tailwindcss
+npm run build-css   (run this command for each time when change the styles.css file or css configuration)
+npm install live-server -g  (to install live server)
+live-server public   (run the live server)
