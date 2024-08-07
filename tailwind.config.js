@@ -16,9 +16,9 @@ module.exports = {
         }
       },
       colors: {
-        'logo-blue1': "#69b7f9",
-        'logo-blue2': "#42a5f6",
-        'logo-blue3': "#093476",
+        logoblue1: "#69b7f9",
+        logoblue2: "#42a5f6",
+        logoblue3: "#093476",
       },
     },
   },
