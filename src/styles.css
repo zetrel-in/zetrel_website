@@ -55,3 +55,21 @@
     transform: rotateY(180deg);
   }
 }
+
+
+/* underline bar */
+@layer components{
+  .bar{
+    /* width: 0.4em;
+    height: 4em; */
+
+    height: 0.2em;
+    width: 6em;
+
+    /* background: rgb(40,40,41); */
+    background: linear-gradient(90deg, rgba(40,40,41,1) 0%, rgba(37,88,166,1) 8%, rgba(66,165,246,1) 23%, rgba(105,191,249,1) 48%, rgba(66,165,246,1) 72%, rgba(37,88,166,1) 90%, rgba(28,32,29,1) 100%); 
+    filter: drop-shadow(0 0 0.5em#48d2fc);
+    margin: 0 2em;
+    /* transform: rotate(90deg); */
+  }
+}
