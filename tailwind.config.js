@@ -20,6 +20,10 @@ module.exports = {
         logoblue2: "#42a5f6",
         logoblue3: "#093476",
       },
+      backgroundImage: {
+        moonbg: "url('Images/Designer (17).png')",
+      },
+
     },
   },
   plugins: [],
