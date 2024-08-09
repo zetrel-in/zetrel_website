@@ -644,6 +644,35 @@ video {
   /* transform: rotate(90deg); */
 }
 
+.card-animate{
+  animation: card-load 800ms ease-out;
+  animation-delay: 100ms;
+}
+
+.flip-card:nth-child(1){
+  animation-delay: 100ms;
+}
+
+.flip-card:nth-child(2){
+  animation-delay: 200ms;
+}
+
+.flip-card:nth-child(3){
+  animation-delay: 300ms;
+}
+
+@keyframes card-load {
+  0%{
+    transform: translateX(200%);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1090,6 +1119,8 @@ video {
 /* for fliping cards */
 
 /* underline bar */
+
+/* our course card animation on scroll */
 
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
