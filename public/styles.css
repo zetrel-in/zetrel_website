@@ -716,10 +716,6 @@ video {
   margin-top: 7rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -972,10 +968,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -1076,6 +1068,7 @@ video {
 
 @media (min-width: 768px) {
   .our-goal-div {
+    border-bottom-width: 0px;
     padding: 0.75rem;
   }
 }
@@ -1225,11 +1218,6 @@ video {
 
   .md\:p-0 {
     padding: 0px;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .md\:text-blue-700 {
