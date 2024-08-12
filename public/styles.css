@@ -644,6 +644,35 @@ video {
   /* transform: rotate(90deg); */
 }
 
+.card-animate{
+  animation: card-load 800ms ease-out;
+  animation-delay: 100ms;
+}
+
+.flip-card:nth-child(1){
+  animation-delay: 100ms;
+}
+
+.flip-card:nth-child(2){
+  animation-delay: 200ms;
+}
+
+.flip-card:nth-child(3){
+  animation-delay: 300ms;
+}
+
+@keyframes card-load {
+  0%{
+    transform: translateX(200%);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -737,6 +766,14 @@ video {
   margin-top: 1rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
 .block {
   display: block;
 }
@@ -777,6 +814,10 @@ video {
   height: 2rem;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -795,6 +836,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-1 {
+  width: 0.25rem;
 }
 
 .max-w-none {
@@ -821,6 +866,10 @@ video {
 
 .animate-loop-scroll {
   animation: loop-scroll 30s linear infinite;
+}
+
+.resize {
+  resize: both;
 }
 
 .grid-cols-1 {
@@ -985,6 +1034,10 @@ video {
   padding: 2rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -998,6 +1051,11 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-2 {
@@ -1149,6 +1207,13 @@ video {
 /* for fliping cards */
 
 /* underline bar */
+
+/* our course card animation on scroll */
+
+.imgscroll {
+  height: 5rem;
+  width: 5rem;
+}
 
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
@@ -1312,6 +1377,23 @@ video {
     width: 33.333333%;
   }
 
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:border-b-\[1px\] {
+    border-bottom-width: 1px;
+  }
+
+  .lg\:border-r-\[1px\] {
+    border-right-width: 1px;
+  }
+
+  .lg\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -1392,4 +1474,3 @@ video {
     }
   }
 }
-
