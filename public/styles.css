@@ -783,10 +783,6 @@ input[type=number] {
   margin-bottom: 1.5rem;
 }
 
-.-mb-8 {
-  margin-bottom: -2rem;
-}
-
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -919,6 +915,10 @@ input[type=number] {
   width: 100%;
 }
 
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .max-w-none {
   max-width: none;
 }
@@ -1018,6 +1018,10 @@ input[type=number] {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .scroll-smooth {
