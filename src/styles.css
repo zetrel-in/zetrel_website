@@ -120,6 +120,23 @@
   @apply bg-black border-b border-b-gray-500  pt-3 pr-3 pb-2 w-full lg:w-[49%] mt-6 placeholder:font-light focus:outline-none focus:border-b-gray-300
 }
 
+/* our team  */
+@layer components{
+  .team-img{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
 
 
 
