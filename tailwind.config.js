@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'loop-scroll': 'loop-scroll 30s linear infinite', // Adjusted duration for smoother scrolling
+        'loop-scroll': 'loop-scroll 20s linear infinite', // Adjusted duration for smoother scrolling
       },
       keyframes: {
         'loop-scroll': {
