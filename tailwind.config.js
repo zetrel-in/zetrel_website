@@ -24,6 +24,9 @@ module.exports = {
         moonbg: "url('Images/Designer (17).png')",
         // gridimg: "url('Images/Designer (18).png')",
         smokeimg: "url('Images/Designer (20).png')",
+        joystick: "url('Images/joystick.png')",
+        gdcimg: "url('Images/GDC.png')",
+        mazeximg: "url('Images/Mazex logo.png')",
       },
 
     },
