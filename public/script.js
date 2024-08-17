@@ -19,3 +19,16 @@ const landingContent = document.getElementById('landing-content');
 const elements = document.querySelectorAll('.flip-card');
 elements.forEach((el) => observer.observe(el));
 observer.observe(landingContent);
+
+
+
+
+// gallery video play and pause on hover
+function videoPause(x){
+    console.log("Helo");
+    x.pause();
+}
+
+function videoPlay(x){
+    x.play();
+}
