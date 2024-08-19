@@ -286,3 +286,27 @@
   }
   
 }
+
+/* 
+for image masking */
+@layer components{
+  .mask-img{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: screen; */
+    /* background-image: radial-gradient(closest-side at 60% 55%,blue,green,yellow,black); */
+  }
+}
+
+@layer components{
+  .contact-card{
+    border-radius: 50px;
+background: #5e5c64;
+box-shadow:  20px 20px 60px #504e55,
+             -20px -20px 60px #6c6a73;
+  }
+}

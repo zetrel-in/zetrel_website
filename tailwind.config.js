@@ -24,6 +24,7 @@ module.exports = {
         moonbg: "url('Images/Designer (17).png')",
         // gridimg: "url('Images/Designer (18).png')",
         smokeimg: "url('Images/Designer (20).png')",
+        contactbg: "url('Images/illustration/Fluktuasi Suara.svg')"
       },
 
     },

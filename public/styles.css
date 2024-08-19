@@ -806,8 +806,20 @@ input[type=number] {
   border-width: 0;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .relative {
   position: relative;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .m-0 {
@@ -893,8 +905,28 @@ input[type=number] {
   margin-top: 1.5rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .block {
   display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -933,6 +965,14 @@ input[type=number] {
   height: 2rem;
 }
 
+.h-\[10vh\] {
+  height: 10vh;
+}
+
+.h-\[50\%\] {
+  height: 50%;
+}
+
 .h-\[80vh\] {
   height: 80vh;
 }
@@ -943,6 +983,14 @@ input[type=number] {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[30vh\] {
+  height: 30vh;
+}
+
+.h-\[20vh\] {
+  height: 20vh;
 }
 
 .\!w-full {
@@ -967,6 +1015,10 @@ input[type=number] {
 
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .w-full {
@@ -1007,6 +1059,10 @@ input[type=number] {
   resize: both;
 }
 
+.list-none {
+  list-style-type: none;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1033,6 +1089,10 @@ input[type=number] {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-4 {
@@ -1139,9 +1199,24 @@ input[type=number] {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
 .bg-moonbg {
@@ -1184,6 +1259,10 @@ input[type=number] {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-1 {
@@ -1234,6 +1313,11 @@ input[type=number] {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .\!pt-6 {
@@ -1293,11 +1377,6 @@ input[type=number] {
   line-height: 1;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1318,6 +1397,10 @@ input[type=number] {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .uppercase {
@@ -1468,6 +1551,9 @@ input[type=number] {
 }
 
 /* for contact form border animation */
+
+/* 
+for image masking */
 
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
@@ -1647,6 +1733,18 @@ input[type=number] {
 
   .lg\:h-\[70vh\] {
     height: 70vh;
+  }
+
+  .lg\:h-\[75vh\] {
+    height: 75vh;
+  }
+
+  .lg\:h-\[80vh\] {
+    height: 80vh;
+  }
+
+  .lg\:h-\[60vh\] {
+    height: 60vh;
   }
 
   .lg\:w-1\/2 {

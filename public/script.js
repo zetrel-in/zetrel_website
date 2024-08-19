@@ -1,7 +1,6 @@
 const options = {
-    root: Document.documentElement,
+    // root: Document.documentElement,
     rootMargin:'900px',
-    // threshold:[0,0.1,0.2,1]
     threshold:0.6
 };
 const observer = new IntersectionObserver((entries) => {
@@ -22,6 +21,14 @@ observer.observe(landingContent);
 
 
 
+// nav menu toggling
+
+let menu = document.getElementById('navbar-default');
+document.getElementById('tb').addEventListener('click',event =>{
+    menu.classList.toggle('hidden');
+})
+
+
 
 // gallery video play and pause on hover
 function videoPause(x){
@@ -32,3 +39,5 @@ function videoPause(x){
 function videoPlay(x){
     x.play();
 }
+
+
