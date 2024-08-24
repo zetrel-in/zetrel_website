@@ -19,6 +19,19 @@
   }
 }
 
+/* landing page content loading animation */
+@layer components{
+  .landing-content{
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all ease 1s;
+  }
+}
+
+.fade-content{
+  @apply translate-x-0 opacity-[1]
+}
+
 /* @layer components{
   .landing-content{
     animation: load-ani 2s ease-in;
@@ -41,7 +54,7 @@
 
 /* for our goal section */
 .our-goal-div{
-  @apply h-52 text-center py-3 md:p-3 hover:scale-[103%] transition ease-linear delay-75 border-b-[1px] md:border-b-0
+  @apply h-52 text-center py-3 md:p-3 hover:scale-[103%] transition ease-linear delay-75 border-b-[1px] md:border-b-0 flex flex-col justify-center
 }
 
 
@@ -157,11 +170,6 @@
 
   .flip-card:nth-child(3){
     animation-delay: 300ms;
-  }
-
-  /* for landing content */
-  .landing-content{
-    animation: load-ani 2s ease-in;
   }
 
   @keyframes card-load {

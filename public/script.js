@@ -1,7 +1,8 @@
 const options = {
     // root: Document.documentElement,
+    root: null,
     rootMargin:'900px',
-    threshold:0.6
+    threshold:0.5
 };
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -11,13 +12,26 @@ const observer = new IntersectionObserver((entries) => {
         else{
             entry.target.classList.remove('card-animate');
         }
-    },);
+    });
 },options);
+
+const landingObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting){
+            console.log("Occured here");
+            entry.target.classList.add('fade-content');
+        }else{
+            console.log("fade removed");
+            entry.target.classList.remove('fade-content');
+        }
+    })
+});
 
 const landingContent = document.getElementById('landing-content');
 const elements = document.querySelectorAll('.flip-card');
 elements.forEach((el) => observer.observe(el));
-observer.observe(landingContent);
+// observer.observe(landingContent);
+landingObserver.observe(landingContent);
 
 
 
@@ -32,7 +46,6 @@ document.getElementById('tb').addEventListener('click',event =>{
 
 // gallery video play and pause on hover
 function videoPause(x){
-    console.log("Helo");
     x.pause();
 }
 
