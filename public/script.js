@@ -4,6 +4,10 @@ const options = {
     rootMargin:'900px',
     threshold:0.5
 };
+
+const generalOptions = {
+    threshold: 0.7
+}
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting){
@@ -25,7 +29,7 @@ const generalObserver = new IntersectionObserver((entries) => {
             entry.target.classList.remove('fade-content');
         }
     })
-});
+},generalOptions);
 
 const elements = document.querySelectorAll('.flip-card');
 elements.forEach((el) => observer.observe(el));

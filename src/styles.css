@@ -207,7 +207,7 @@
   .sub-domain-card{
     transform: translateX(50%);
     opacity: 0;
-    transition: all ease 1s;
+    transition: all ease .8s;
   }
 }
 
