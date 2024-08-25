@@ -15,7 +15,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 },options);
 
-const landingObserver = new IntersectionObserver((entries) => {
+const generalObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting){
             console.log("Occured here");
@@ -27,16 +27,18 @@ const landingObserver = new IntersectionObserver((entries) => {
     })
 });
 
-const landingContent = document.getElementById('landing-content');
 const elements = document.querySelectorAll('.flip-card');
 elements.forEach((el) => observer.observe(el));
-// observer.observe(landingContent);
-landingObserver.observe(landingContent);
+
+const landingContent = document.getElementById('landing-content');
+generalObserver.observe(landingContent);
+
+const subDomainCard = document.querySelectorAll('.sub-domain-card');
+subDomainCard.forEach((el) => generalObserver.observe(el));
 
 
 
 // nav menu toggling
-
 let menu = document.getElementById('navbar-default');
 document.getElementById('tb').addEventListener('click',event =>{
     menu.classList.toggle('hidden');

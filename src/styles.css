@@ -22,7 +22,7 @@
 /* landing page content loading animation */
 @layer components{
   .landing-content{
-    transform: translateX(100%);
+    transform: translateX(50%);
     opacity: 0;
     transition: all ease 1s;
   }
@@ -197,6 +197,20 @@
     }
   }
 }
+
+/* subdomain section */
+.sub-domain-card{
+  @apply self-auto flex flex-col items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700
+}
+
+@layer components{
+  .sub-domain-card{
+    transform: translateX(50%);
+    opacity: 0;
+    transition: all ease 1s;
+  }
+}
+
 
 /* remove arrow from number input */
 

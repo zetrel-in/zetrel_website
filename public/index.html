@@ -40,7 +40,7 @@
     </header>
     <main>
         <!--Landing page begins-->
-        <section class=" text-white h-[80vh] w-[100%] bg-moonbg bg-cover bg-center"> 
+        <section class=" text-white h-[80vh] w-[100%] bg-moonbg bg-cover bg-center overflow-hidden"> 
             <div class="container flex flex-col justify-center px-10 lg:px-28 space-x-72 masking h-full w-full">
                     <div class="lg:w-[70%] landing-content" id="landing-content">
                         <h3 class="font-bold text-3xl lg:text-7xl">Concept.<br>Develop.Play</h3>
@@ -210,30 +210,24 @@
                 <span class="bar mt-2"></span>
             </div>
             
-            <!-- <div class="grid grid-cols-2 gap-4 mx-20 place-items-center"> -->
-            <div class="flex flex-col lg:flex-row justify-evenly items-center pb-20">
-                <a href="#" class="flex flex-col items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700">
+            <div class="flex flex-col lg:flex-row justify-evenly items-center pb-20 flex-wrap">
+                <a href="#" class="sub-domain-card">
                     <img class="object-cover w-full rounded-t-lg h-full  md:w-48 md:rounded-none md:rounded-s-lg lg:hidden" src="Images/GDC.jpg" alt="">
                     <img class="object-cover w-full rounded-t-lg h-full md:w-48 md:rounded-none md:rounded-s-lg hidden lg:block" src="Images/logos/gdc_logo.jpg" alt="">
                     <div class="flex flex-col justify-between p-4 leading-normal">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">GDC</h5>
-                        <p class="mb-3 font-normal text-gray-400">
-                            GDC initiated at Model Engineering College, Ernakulam, is a thriving 
-                            community of aspiring game developers. Supported by Zetrel, GDC 
-                            has expanded to various institutions, providing a collaborative 
-                            platform where students can learn, create, and share their passion 
-                            for game development. Through workshops, events, and hands-on 
-                            projects, members explore the possibilities of Game dev.
+                        <p class="mb-3 font-normal text-gray-400 text-justify">
+                            GDC, initiated at Model Engineering College, Ernakulam, is a vibrant community of aspiring game developers. Supported by Zetrel, GDC has expanded to various institutions, offering a platform for students to learn, create, and share their passion for game development through workshops, events, and hands-on projects.
                         </p>
                         <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visit Website</button>
                     </div>
                 </a>
-                <a href="#" class="mt-10 flex flex-col items-center border rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 border-gray-700 bg-gray-800 dark:hover:bg-gray-700">
+                <a href="#" class="mt-10 xl:mt-0 sub-domain-card">
                     <img class="object-cover w-full rounded-t-lg h-full md:h-auto md:w-48 md:rounded-none md:rounded-s-lg hidden lg:block" src="Images/logos/mazex_logo.jpg" alt="">
                     <img class="object-cover w-full rounded-t-lg h-full md:h-auto md:w-48 md:rounded-none md:rounded-s-lg lg:hidden" src="Images/Mazex logo.png" alt="">
                     <div class="flex flex-col justify-between p-4 leading-normal">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Maze-X</h5>
-                        <p class="mb-3 font-normal text-gray-400">Maze-X is the eSports division under GDC , offering a competitive 
+                        <p class="mb-3 font-normal text-gray-400 text-justify">Maze-X is the eSports division under GDC , offering a competitive 
                             platform for gamers to showcase their skills. As part of Zetrel's 
                             broader vision, Maze-X organizes and hosts tournaments, events, and 
                             gaming challenges, fostering a community where passion for gaming 
