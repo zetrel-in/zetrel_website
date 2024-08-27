@@ -22,14 +22,18 @@
 /* landing page content loading animation */
 @layer components{
   .landing-content{
-    transform: translateX(50%);
+    transform: scale(.7);
     opacity: 0;
     transition: all ease 1s;
   }
 }
 
-.fade-content{
+/* .fade-content{
   @apply translate-x-0 opacity-[1]
+} */
+
+.fade-content{
+  @apply scale-[1] opacity-[1]
 }
 
 /* @layer components{
@@ -203,9 +207,13 @@
   @apply self-auto flex flex-col items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700
 }
 
+.sub-domain-fade{
+  @apply translate-y-0 opacity-[1]
+}
+
 @layer components{
   .sub-domain-card{
-    transform: translateX(50%);
+    transform: translateY(40%);
     opacity: 0;
     transition: all ease .8s;
   }

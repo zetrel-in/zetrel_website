@@ -1,12 +1,11 @@
 const options = {
-    // root: Document.documentElement,
     root: null,
     rootMargin:'900px',
     threshold:0.5
 };
 
 const generalOptions = {
-    threshold: 0.7
+    threshold: 0.6
 }
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -22,14 +21,24 @@ const observer = new IntersectionObserver((entries) => {
 const generalObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting){
-            console.log("Occured here");
             entry.target.classList.add('fade-content');
         }else{
-            console.log("fade removed");
             entry.target.classList.remove('fade-content');
         }
     })
 },generalOptions);
+
+
+
+const subDomainObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting){
+            entry.target.classList.add('sub-domain-fade');
+        }else{
+            entry.target.classList.remove('sub-domain-fade');
+        }
+    })
+})
 
 const elements = document.querySelectorAll('.flip-card');
 elements.forEach((el) => observer.observe(el));
@@ -38,7 +47,7 @@ const landingContent = document.getElementById('landing-content');
 generalObserver.observe(landingContent);
 
 const subDomainCard = document.querySelectorAll('.sub-domain-card');
-subDomainCard.forEach((el) => generalObserver.observe(el));
+subDomainCard.forEach((el) => subDomainObserver.observe(el));
 
 
 

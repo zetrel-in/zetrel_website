@@ -596,7 +596,7 @@ video {
 }
 
 .landing-content{
-  transform: translateX(50%);
+  transform: scale(.7);
   opacity: 0;
   transition: all ease 1s;
 }
@@ -715,7 +715,7 @@ video {
 }
 
 .sub-domain-card{
-  transform: translateX(50%);
+  transform: translateY(40%);
   opacity: 0;
   transition: all ease .8s;
 }
@@ -1429,8 +1429,13 @@ input[type=number] {
 
 /* landing page content loading animation */
 
+/* .fade-content{
+  @apply translate-x-0 opacity-[1]
+} */
+
 .fade-content {
-  --tw-translate-x: 0px;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   opacity: 1;
 }
@@ -1573,6 +1578,12 @@ input[type=number] {
     max-width: 36rem;
     flex-direction: row;
   }
+}
+
+.sub-domain-fade {
+  --tw-translate-y: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 1;
 }
 
 /* remove arrow from number input */
