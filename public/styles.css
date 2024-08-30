@@ -1028,6 +1028,10 @@ input[type=number] {
   animation: loop-scroll 20s linear infinite;
 }
 
+.resize-none {
+  resize: none;
+}
+
 .resize {
   resize: both;
 }

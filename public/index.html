@@ -412,7 +412,12 @@
                 </div>
                 <div class="grid gap-4">
                     <div>
-                        <video
+                        <img
+                            class="h-auto max-w-full rounded-lg object-cover object-center"
+                            src="Images/gallery/IMG.jpg"
+                            alt="gallery-photo"
+                        />
+                        <!-- <video
                           onmouseenter="videoPause(this)" onmouseleave="videoPlay(this)"
                           class="h-auto max-w-full rounded-lg object-cover object-center vid-container"
                           src="Images/annual.mp4"
@@ -420,7 +425,7 @@
                           autoplay muted loop
                         >
                           Your browser does not support the video tag.
-                        </video>
+                        </video> -->
                       </div>
                   <div>
                     <img
@@ -463,7 +468,7 @@
                             <input type="text" name="subject" id="" class="contact-input" placeholder="Subject">
                         </div>
 
-                        <textarea name="" id="" class="contact-input !pt-6 !w-full" rows="7" placeholder="Write your message"></textarea>
+                        <textarea name="" id="" class="contact-input !pt-6 !w-full resize-none" rows="6" placeholder="Write your message"></textarea>
                         <div class="flex justify-center items-center mt-6">
                             <button type="submit" class="border px-6 py-3 rounded-[40px] box relative overflow-hidden">Submit</button>
                         </div>
