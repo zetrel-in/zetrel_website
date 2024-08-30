@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss -i src/styles.css -o public/styles.css --watch",
-    "set-deploy":"tailwindcss -i src/styles.css -o docs/styles.css && cp public/index.html docs/index.html"
+    "set-deploy":"tailwindcss -i src/styles.css -o docs/styles.css && cp -r public/* docs/"
   },
   "keywords": [],
   "author": "",
