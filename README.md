@@ -1,2 +1,3 @@
-# ZETRAL_Website
-website design for our company
+# zetrel_website
+Official website of Zetrel
+
