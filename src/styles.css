@@ -9,6 +9,10 @@
   }
 
 
+.active-nav{
+  @apply md:text-blue-500
+}
+
 /* landing page masking */
 @layer components{
   .masking{
