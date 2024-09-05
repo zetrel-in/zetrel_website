@@ -21,7 +21,7 @@ module.exports = {
         logoblue3: "#093476",
       },
       backgroundImage: {
-        moonbg: "url('Images/Designer (17).png')",
+        moonbg: "url('Images/Designer (17)-comp.png')",
         // gridimg: "url('Images/Designer (18).png')",
         smokeimg: "url('Images/Designer (20).png')",
         contactbg: "url('Images/illustration/Fluktuasi Suara.svg')",

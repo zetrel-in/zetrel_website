@@ -32,32 +32,54 @@
   }
 }
 
-/* .fade-content{
-  @apply translate-x-0 opacity-[1]
-} */
-
 .fade-content{
   @apply scale-[1] opacity-[1]
 }
 
-/* @layer components{
-  .landing-content{
-    animation: load-ani 2s ease-in;
+/* logo scrolling */
+@layer components{
+  .sliderr{
+    width: 100%;
+    height: var(--height);
+    padding: 10px;
   }
 
-  @keyframes load-ani {
-    0%{
-      transform: translateX(-200%);
-      opacity: 0;
-    }
-    50%{
-      transform: translateX(0);
-    }
-    100%{
-      opacity: 1;
+  .sliderr .listt{
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    min-width: calc(var(--width) * var(--quantity));
+    position: relative;
+  }
+
+  .sliderr .listt .items{
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    left: 100%;
+    animation: autoRun 10s linear infinite;
+    animation-delay: calc( (10s/ var(--quantity)) * (var(--possition) - 1) );
+  }
+
+  .sliderr .listt .items img{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    max-width: none;
+  }
+
+  @keyframes autoRun {
+    from{
+      left: 100%;
+    }to{
+      left: calc(var(--width) * -1);
     }
   }
-} */
+
+  .sliderr:hover .items{
+    animation-play-state: paused;
+  }
+}
 
 
 /* for our goal section */
