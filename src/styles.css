@@ -38,30 +38,34 @@
 
 /* logo scrolling */
 @layer components{
-  .sliderr{
+  .slider{
+    display: flex;
+    align-items: center;
     width: 100%;
     height: var(--height);
     padding: 30px 0;
+    overflow-x: hidden;
   }
 
-  .sliderr .listt{
+  .slider .list{
     display: flex;
+    align-items: center;
     /* justify-content: space-evenly; */
     width: 100%;
     min-width: calc(var(--width) * var(--quantity));
     position: relative;
   }
 
-  .sliderr .listt .items{
+  .slider .list .items{
     width: var(--width);
-    height: var(--height);
+    /* height: var(--height); */
     position: absolute;
     left: 100%;
     animation: autoRun 10s linear infinite;
     animation-delay: calc( (10s/ var(--quantity)) * (var(--possition) - 1) );
   }
 
-  .sliderr .listt .items img{
+  .slider .list .items img{
     width: 100%;
     aspect-ratio: 3/2;
     object-fit: contain;
