@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  @apply w-1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-logoblue2 rounded
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-logoblue3
+}
+
+
+
+
 @layer utilities {
     .paused {
       animation-play-state: paused;
