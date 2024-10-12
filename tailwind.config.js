@@ -13,7 +13,14 @@ module.exports = {
         'loop-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
+        },
+        'digonal':{
+          '0% , 100%':{transform:'translateX(10px)',transform:'translateY(10px)'},
+          '50%':{transform:'translateX(0)',trasnform:'translateY(0)'}
         }
+      },
+      animation:{
+        'digonal':'digonal 1.5s ease-in-out infinite'
       },
       colors: {
         logoblue1: "#69b7f9",

@@ -237,7 +237,12 @@
   }
 }
 
-
+/* about */
+@layer components{
+  .gradient-shadow{
+    filter: drop-shadow(5px 5px 10px #42a5f6);
+  }
+}
 
 /* our course card animation on scroll */
 @layer components{
