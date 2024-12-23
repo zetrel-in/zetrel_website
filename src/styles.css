@@ -291,7 +291,7 @@
 
 /* subdomain section */
 .sub-domain-card{
-  @apply self-auto flex flex-col items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700
+  @apply self-auto flex flex-col items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700 lg:m-6
 }
 
 .sub-domain-fade{
