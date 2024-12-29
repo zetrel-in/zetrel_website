@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn how to choose the best game engine for your project. Compare popular engines like Unity, Unreal Engine, Godot, and GameMaker Studio 2. Understand key factors like platform support, features, costs, and ease of use to make an informed decision for your game development journey."
+    />
+    <link rel="icon" href="Images/Logo.png" />
+    <title>Zetrel | Future of gaming</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black">
+    <header>
+      <nav
+        class="border-gray-200 bg-gray-900 z-50 fixed top-0 w-full block"
+        id="header"
+      >
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="Images/Logo.png" class="h-8" alt="Flowbite Logo" />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap text-white"
+              >ZETREL</span
+            >
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            id="tb"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="https://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul
+              class="font-medium text-white flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="./"
+                  class="nav-link block py-2 px-3 rounded md:hover:bg-transparent md-border-0 md:hover:text-blue-700 md:bg-transparent md:p-0 hover:bg-gray-700"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="index.html#course"
+                  class="block nav-link py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Course</a
+                >
+              </li>
+              <li>
+                <a
+                  href="index.html#about"
+                  class="block nav-link py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="index.html#contact"
+                  class="block nav-link py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a
+                  href="team.html"
+                  class="block nav-link py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  id="team"
+                  >Team</a
+                >
+              </li>
+              <li>
+                <a
+                  href="blogs.html"
+                  class="block nav-link py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  id="blogs"
+                  >Blogs</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="h-[70vh] bg-futuregame bg-no-repeat bg-cover bg-center">
+        <div
+          class="h-full w-full masking-up flex justify-center items-center md:items-end"
+        >
+          <h1
+            class="text-3xl md:text-5xl font-bold text-gray-200 text-center uppercase p-14 lg:py-14 lg:px-28"
+          >
+            Choosing the Right Game Engine for Your Game Development Journey:
+            Unity, Unreal, Godot & More
+          </h1>
+        </div>
+      </section>
+      <section class="text-white px-10 lg:px-80 py-10 mt-10">
+        <p class="text-lg">
+          Learn how to choose the best game engine for your project. Compare
+          popular engines like Unity, Unreal Engine, Godot, and GameMaker Studio
+          2. Understand key factors like platform support, features, costs, and
+          ease of use to make an informed decision for your game development
+          journey.
+        </p>
+        <h3 class="blog-heading">
+          Choosing the Right Game Engine for Your Game Development Journey
+        </h3>
+        <p class="py-3">
+          Starting a game development project is an exciting endeavor, and one
+          of the most important decisions you'll make is selecting the right
+          game engine. This decision shapes your game's creative direction,
+          influences your workflow, and determines which platforms you can
+          reach. In this guide, we will explore essential factors to consider
+          when choosing a game engine and highlight some of the best game
+          development engines available today, such as Unity, Unreal Engine,
+          Godot, and GameMaker Studio 2.
+        </p>
+        <h4 class="text-2xl py-10 font-kanit">
+          Key Factors to Consider When Choosing a Game Engine
+        </h4>
+        <ol>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Type of Game:</span>
+            Consider the genre, complexity, and visual style of your game.
+            Whether you’re developing a 2D puzzle game, a 3D open-world RPG, or
+            an action-packed shooter, the type of game will influence which game
+            development engine is best suited for the project. For example,
+            Unity excels in both 2D and 3D game development, while Unreal Engine
+            is ideal for creating photorealistic graphics.
+          </li>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Target Platform:</span> Determine where
+            you want your game to be played: PC, mobile, console, or web. Unity
+            is highly renowned for its cross-platform support, allowing
+            developers to deploy games across multiple devices with ease. Unreal
+            Engine also offers excellent support for multiple platforms,
+            including VR and AR.
+          </li>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Team Size and Experience: </span>For
+            solo developers or smaller indie teams, visual scripting tools like
+            Unreal Engine's Blueprint can simplify the development process.
+            Larger teams may require more flexibility and control, making
+            engines like Unity or Unreal Engine more appealing.
+          </li>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Budget:</span> Game engine costs vary
+            significantly. Godot is free and open-source, while Unity and Unreal
+            Engine offer different pricing tiers based on your project’s
+            revenue. Understanding the pricing structure of each engine will
+            help you select the best fit for your budget.
+          </li>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Features:</span> Evaluate the tools and
+            features provided by each engine, such as AI tools, physics systems,
+            animation tools, and visual effects editors. Unreal Engine excels in
+            high-fidelity graphics and complex environments, while Unity is
+            stronger in 2D game development and flexibility.
+          </li>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Community and Support:</span> A vibrant
+            and active developer community can greatly enhance your game
+            development journey. Check for community size, available tutorials,
+            and support channels for engines like Unity, Unreal Engine, and
+            Godot.
+          </li>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Programming Experience:</span> Your
+            familiarity with programming languages plays a key role in your
+            choice. Unreal Engine uses C++, while Unity uses C#. For beginners,
+            Godot’s GDScript or visual scripting may be a more approachable
+            choice.
+          </li>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Art Style:</span> If you are aiming for
+            a specific art style, consider which engine is best suited for that.
+            For instance, Unreal Engine is perfect for creating photorealistic
+            graphics, while Unity can handle everything from realistic to
+            cartoonish styles.
+          </li>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Specific Features:</span> Consider if
+            your game requires advanced features like multiplayer networking,
+            VR, or AR support. Unreal Engine has comprehensive multiplayer
+            tools, while Unity has powerful VR/AR support.
+          </li>
+          <li class="blog-list-order">
+            <span class="font-extrabold">Project Scope:</span> Smaller games can
+            benefit from engines like Godot, while larger projects may be better
+            suited for Unity or Unreal Engine due to their robust capabilities.
+          </li>
+        </ol>
+        <h4 class="text-2xl py-10 font-kanit">
+          Top Game Engines and Their Features
+        </h4>
+        <p class="py-3">
+          Here’s a comparison of some of the most popular game development
+          engines:
+        </p>
+        <table>
+          <tr>
+            <th>Engine</th>
+            <th>Supported Platforms</th>
+            <th>Scripting Languages</th>
+            <th>Notable Features</th>
+            <th>Ease of Use</th>
+            <th>Community Size</th>
+          </tr>
+          <tr>
+            <td data-cell="Engine">Unity</td>
+            <td data-cell="Supported Platforms">PC, mobile, consoles, WebGL</td>
+            <td data-cell="Scripting Languages">C#, Bolt Visual Scripting</td>
+            <td data-cell="Notable Features">
+              Cross-platfor m support, asset store
+            </td>
+            <td data-cell="Ease of Use">User-friendly</td>
+            <td data-cell="Community Size">Large and active</td>
+          </tr>
+          <tr>
+            <td data-cell="Engine">Unreal Engine</td>
+            <td data-cell="Supported Platforms">PC, mobile, consoles, HTML5</td>
+            <td data-cell="Scripting Languages">
+              C++, Blueprint Visual Scripting
+            </td>
+            <td data-cell="Notable Features">
+              High-fidelity graphics, multiplayer tools
+            </td>
+            <td data-cell="Ease of Use">Steep learning curve</td>
+            <td data-cell="Community Size">Large</td>
+          </tr>
+          <tr>
+            <td data-cell="Engine">Godot</td>
+            <td data-cell="Supported Platforms">PC, mobile, Web</td>
+            <td data-cell="Scripting Languages">
+              GDScript, C#, C++, Visual Scripting
+            </td>
+            <td data-cell="Notable Features">
+              Free, lightweight, node-based system
+            </td>
+            <td data-cell="Ease of Use">Beginner- friendly</td>
+            <td data-cell="Community Size">Growing</td>
+          </tr>
+          <tr>
+            <td data-cell="Engine">GameMaker Studio 2</td>
+            <td data-cell="Supported Platforms">PC, mobile, Web consoles</td>
+            <td data-cell="Scripting Languages">GML, Drag-and-Dr op</td>
+            <td data-cell="Notable Features">
+              Strong 2D focus, easy for beginners
+            </td>
+            <td data-cell="Ease of Use">Very accessible</td>
+            <td data-cell="Community Size">Active</td>
+          </tr>
+          <tr>
+            <td data-cell="Engine">CryEngine</td>
+            <td data-cell="Supported Platforms">
+              PC, Linux, PlayStation, Xbox
+            </td>
+            <td data-cell="Scripting Languages">C++, C#, Lua</td>
+            <td data-cell="Notable Features">Advanced graphics capabilities</td>
+            <td data-cell="Ease of Use">Steep learning curve</td>
+            <td data-cell="Community Size">Smaller</td>
+          </tr>
+        </table>
+        <h4 class="text-2xl py-10 font-kanit">Types of Game Engines</h4>
+        <p class="py-3">
+          Game engines can be classified based on their functionality:
+        </p>
+        <ul>
+          <li class="blog-list">
+            <span class="font-extrabold">2D Engines:</span> These engines are
+            optimized for sprite-based graphics, 2D physics, and rendering
+            (e.g., GameMaker Studio 2, Godot).
+          </li>
+          <li class="blog-list">
+            <span class="font-extrabold">3D Engines:</span> These engines
+            provide advanced tools for creating immersive environments and
+            handling complex graphics (e.g., Unreal Engine, Unity, CryEngine).
+          </li>
+          <li class="blog-list">
+            <span class="font-extrabold">Cross-Platform Engines:</span> These
+            engines allow you to develop games for multiple platforms with a
+            single codebase (e.g., Unity).
+          </li>
+          <li class="blog-list">
+            <span class="font-extrabold">Open-Source Engines:</span> These allow
+            you to modify the engine’s source code freely (e.g., Godot).
+          </li>
+          <li class="blog-list">
+            <span class="font-extrabold">Proprietary Engines:</span> These are
+            polished engines with extensive support but may include licensing
+            fees (e.g., Unity, Unreal Engine).
+          </li>
+        </ul>
+        <h4 class="text-2xl py-10 font-kanit">
+          Open-Source vs Proprietary Game Engines
+        </h4>
+        <ul>
+          <li class="blog-list">
+            <span class="font-extrabold">Open-Source Engines:</span> These
+            engines are flexible, cost-effective, and driven by the community
+            (e.g., Godot). However, they may not offer the same advanced
+            features as proprietary engines.
+          </li>
+          <li class="blog-list">
+            <span class="font-extrabold">Proprietary Engines:</span> These
+            engines provide polished features with strong documentation and
+            support but come with licensing costs (e.g., Unity, Unreal Engine).
+          </li>
+        </ul>
+        <h3 class="blog-heading">Game Engine Licensing Costs and Royalties</h3>
+        <table>
+          <tr>
+            <th>Engine</th>
+            <th>Licensing Costs</th>
+          </tr>
+          <tr>
+            <td data-cell="Engine">Unity</td>
+            <td data-cell="Licensing Costs">
+              Free for small projects; paid tiers for commercial use.
+            </td>
+          </tr>
+          <tr>
+            <td data-cell="Engine">Unreal Engine</td>
+            <td data-cell="Licensing Costs">
+              Free to use; 5% royalty on revenue above $1M per game.
+            </td>
+          </tr>
+          <tr>
+            <td data-cell="Engine">Godot</td>
+            <td data-cell="Licensing Costs">
+              Completely free and open-source.
+            </td>
+          </tr>
+          <tr>
+            <td data-cell="Engine">GameMaker Studio 2</td>
+            <td data-cell="Licensing Costs">
+              Various licenses; console licenses have significant costs.
+            </td>
+          </tr>
+        </table>
+        <h4 class="text-2xl py-10 font-kanit">
+          Successful Games and Their Engines
+        </h4>
+        <ul>
+          <li class="blog-list">
+            <span class="font-extrabold">Fortnite</span> (Unreal Engine):
+            Showcases Unreal’s capabilities in creating multiplayer games.
+          </li>
+          <li class="blog-list">
+            <span class="font-extrabold">Among Us</span> (Unity): Highlights
+            Unity’s versatility for indie games.
+          </li>
+          <li class="blog-list">
+            <span class="font-extrabold">Hollow Knight</span> (Unity):
+            Demonstrates Unity’s strength in 2D game development.
+          </li>
+          <li class="blog-list">
+            <span class="font-extrabold">Cuphead</span> (Unity): Showcases
+            Unity’s ability to support unique art styles.
+          </li>
+          <li class="blog-list">
+            <span class="font-extrabold">Genshin Impact</span> (Unity): Proves
+            Unity’s capability to handle complex, high-performance games.
+          </li>
+        </ul>
+        <h4 class="text-2xl py-10 font-kanit">Conclusion</h4>
+        <p class="py-3">
+          Selecting the right game engine for your development project is
+          crucial for your success. Unity and Unreal Engine are powerful choices
+          for a range of game types, while Godot is perfect for indie developers
+          and beginners. GameMaker Studio 2 is excellent for 2D games, and
+          CryEngine is ideal for high-fidelity graphics. By carefully evaluating
+          your project's needs, budget, and features, you can choose the best
+          game engine to bring your vision to life. With the right engine,
+          you’ll embark on your game development journey with confidence.
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="flex flex-col items-center">
+        <h4 class="text-3xl">Follow Us</h4>
+        <ul class="p-3">
+          <li class="inline-block mr-4">
+            <a
+              href="https://www.linkedin.com/company/zetrel.in/about/"
+              aria-label="link to linkedin"
+            >
+              <i class="fa-brands fa-linkedin fa-2xl"></i>
+            </a>
+          </li>
+          <li class="inline-block mr-4">
+            <a
+              href="https://www.instagram.com/zetrel_in/"
+              aria-label="link to instagram"
+            >
+              <i class="fa-brands fa-square-instagram fa-2xl"></i>
+            </a>
+          </li>
+          <li class="inline-block">
+            <a
+              href="https://x.com/zetrel_in?t=4EISZcCQP1540UYD7Hf-zA&s=08"
+              aria-label="link to twitter"
+            >
+              <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex flex-col items-center">
+        <h4 class="text-3xl p-2">Contact</h4>
+        <div
+          class="flex items-center gap-4 flex-col text-center lg:text-left lg:flex-row"
+        >
+          <div>
+            <p class="font-light">
+              <span class="mr-2">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              zetrelofficial@gmail.com
+            </p>
+            <p class="font-light">
+              <span class="mr-2">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              hr@zetrel.in
+            </p>
+          </div>
+          <div>
+            <p class="font-light">
+              <span class="mr-2">
+                <i class="fa-solid fa-phone"></i>
+              </span>
+              <a href="tel:+91 8281504939">+91 8281504939</a>
+            </p>
+            <p class="font-light">
+              <span class="mr-2">
+                <i class="fa-solid fa-phone"></i>
+              </span>
+              <a href="tel:+91 6238 579 631">+91 6238579631</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="nav.js"></script>
+    <script src="adjust_header.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b7166c52a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

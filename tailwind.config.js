@@ -26,8 +26,14 @@ module.exports = {
         logoblue1: "#69b7f9",
         logoblue2: "#42a5f6",
         logoblue3: "#093476",
+        cardbg: "#1F2937",
+        bgblack:"#171717"
+      },
+      fontFamily:{
+        kanit:['kanit']
       },
       backgroundImage: {
+        futuregame:"url('Images/blogs_image/future_of_gaming.jpg')",
         moonbg: "url('Images/Designer (17)-comp.png')",
         smokeimg: "url('Images/Designer (20).png')",
         contactbg: "url('Images/illustration/Fluktuasi Suara.svg')",
