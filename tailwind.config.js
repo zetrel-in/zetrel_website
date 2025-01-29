@@ -34,6 +34,7 @@ module.exports = {
       },
       backgroundImage: {
         futuregame:"url('Images/blogs_image/future_of_gaming.jpg')",
+        rightgameengine:"url('Images/blogs_image/choosing_right_game_engine.jpg')",
         moonbg: "url('Images/Designer (17)-comp.png')",
         smokeimg: "url('Images/Designer (20).png')",
         contactbg: "url('Images/illustration/Fluktuasi Suara.svg')",

@@ -16,6 +16,8 @@ document.getElementById('tb').addEventListener('click',event =>{
 //for active nav link
 if (getPage() === "team.html"){
     document.getElementById('team').classList.add('active-nav');
+}else if(getPage() === "blogs.html"){
+    document.getElementById('blogs').classList.add('active-nav');
 }else{
     document.getElementById('home').classList.add('active-nav');
 }

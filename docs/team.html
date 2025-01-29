@@ -9,7 +9,10 @@
   </head>
   <body class="m-0 font-sans bg-black bg-cover overflow-x-hidden scroll-bar">
     <header>
-      <nav class="border-gray-200 bg-gray-900 z-50 fixed top-0 w-full">
+      <nav
+        class="border-gray-200 bg-gray-900 z-50 fixed top-0 w-full"
+        id="header"
+      >
         <div
           class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
         >
@@ -85,12 +88,20 @@
                   >Team</a
                 >
               </li>
+              <li>
+                <a
+                  href="blogs.html"
+                  class="block nav-link py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  id="blogs"
+                  >Blogs</a
+                >
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <section class="text-white pt-10 mt-20" id="team">
+    <section class="text-white pt-10 mt-20" id="main">
       <div class="flex justify-center items-center p-8 flex-col">
         <h2 class="text-white text-5xl font-bold">
           <span class="text-logoblue2">Our </span>Team
@@ -625,6 +636,7 @@
     </footer>
   </body>
   <script src="nav.js"></script>
+  <script src="adjust_header.js"></script>
   <script
     src="https://kit.fontawesome.com/b7166c52a9.js"
     crossorigin="anonymous"
